@@ -31,7 +31,7 @@ bool CSerialPort::ConfigurePort(DWORD BaudRate, BYTE ByteSize, DWORD fParity,
 {
 	if ((m_bPortReady = GetCommState(m_hComm, &m_dcb)) == 0) //포트의 상태를 확인. 정상적으로 열리지 않았을 경우 false 반환
 	{
-		printf("\nGetCommState Error \n");
+		printf("\ nGetCommState Error \n");
 		//"MessageBox(L, L"Error", MB_OK + MB_ICONERROR);  
 		CloseHandle(m_hComm);
 		return false;
