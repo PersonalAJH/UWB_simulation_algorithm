@@ -5,3 +5,6 @@ jh_main_circle.m is main file of this system
 This code is compare of kalman filter and proposed filter for UWB/IMU fusion localization
 codes in UWB following Robot folder is Real-time robot following code.
 This code is based on UWB Triangulation localization 
+
+master branch is real robot controller using MFC
+main branch is simulation code using matlab
