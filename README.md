@@ -6,6 +6,6 @@ This code is compare of kalman filter and proposed filter for UWB/IMU fusion loc
 codes in UWB following Robot folder is Real-time robot following code.
 This code is based on UWB Triangulation localization 
 
-master branch is real robot controller using MFC
+%%%  master branch is real robot controller using MFC  %%%
 
-main branch is simulation code using matlab
+%%%  main branch is simulation code using matlab  %%%
